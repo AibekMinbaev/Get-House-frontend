@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:8000/api/properties/")
+    fetch("https://aibekminbaev.pythonanywhere.com/api/properties/")
       .then(res => res.json())
       .then(
         (result) => {

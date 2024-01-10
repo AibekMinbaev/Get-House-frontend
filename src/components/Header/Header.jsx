@@ -1,5 +1,5 @@
 import "./Header.css"
-import logo from "../static/logo_used.png" 
+import logo from "/home/aibek/Dev/personal/gethouse/Get-House-frontend/src/static/logo_used.png"
 
 export default function Header(){
     return(

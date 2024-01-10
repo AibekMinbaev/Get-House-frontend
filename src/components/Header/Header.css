@@ -1,10 +1,7 @@
 #main-header{
     height: 100px;
     margin-top: 5px; 
-
-    position: sticky; 
     top: 0; 
-
     background-color: white;
 }
 

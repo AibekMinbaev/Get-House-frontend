@@ -1,6 +1,6 @@
 import "./Property.css"
 
-export default function Property({price, city, square_footage, num_bathrooms, num_bedrooms, property_image}){
+function Property({price, city, square_footage, num_bathrooms, num_bedrooms, property_image}){
     return (
         <div id="property-item">
             <div id="description">
@@ -15,3 +15,5 @@ export default function Property({price, city, square_footage, num_bathrooms, nu
         </div>
     )
 } 
+
+export default Property; 
